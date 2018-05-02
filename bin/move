@@ -9,4 +9,3 @@ board = Array.new(9,"   ")
 index = input_to_index(gets.strip)
 move(board, index, " X ")
 display_board(board)
-  
